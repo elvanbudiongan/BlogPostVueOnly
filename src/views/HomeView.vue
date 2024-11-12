@@ -1,9 +1,12 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
+<!-- src/views/BlogHome.vue -->
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div>
+    <!-- <h1>Blog Home</h1>
+    <router-link to="/new">Create New Post</router-link> -->
+    <BlogList />
+  </div>
 </template>
+
+<script setup lang="ts">
+import BlogList from '@/components/BlogList.vue'
+</script>
